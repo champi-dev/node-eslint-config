@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "start": "npm run lint && node app.js",
+    "dev": "nodemon app.js --exec 'npm start'",
+    "lint": "eslint . --ext .js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.7.2",
+    "eslint-plugin-node": "^10.0.0",
+    "nodemon": "^2.0.2"
+  }
+}
