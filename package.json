@@ -2,7 +2,7 @@
   "scripts": {
     "start": "npm run lint && node app.js",
     "dev": "nodemon app.js --exec 'npm start'",
-    "lint": "eslint . --ext .js"
+    "lint": "eslint . --ext .js --fix",
   },
   "keywords": [],
   "author": "",
